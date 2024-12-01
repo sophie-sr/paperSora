@@ -15,21 +15,20 @@ function MeetTheArtist() {
 
       <div className="artist-info">
         <img 
-          src="https://via.placeholder.com/150" // Replace with a real image URL or import an image
+          src={require("./imgs/jaspfp.png")} // Replace with a real image URL or import an image
           alt="Artist"
           className="artist-photo"
         />
         <div className="artist-bio">
-          <h2>Klip</h2>
+          <h2>klip</h2>
           <p>
-            Jane Doe is an innovative and passionate artist who explores the relationship between 
-            nature and technology. Her work features vivid colors, geometric shapes, and abstract forms 
-            that challenge traditional concepts of art and design. Jane's journey as an artist began in 
-            early childhood, and she continues to push boundaries with her latest creations.
+            Hi, I’m klip! I like creating animations and digital art of anime, games, and ocs (°▽°)
           </p>
           <p>
-            "Art is not just a creation, it is a conversation," says Jane. "Through my work, I hope to spark 
-            meaningful dialogues about the world we live in."
+            jaswei1514@gmail.com <br />
+            2508848456<br />
+            tiktok: paper.klip<br />
+            Instagram: klip_sk<br />
           </p>
         </div>
       </div>
@@ -38,14 +37,7 @@ function MeetTheArtist() {
         <div className="artist-bio-right">
           <h2>Sora</h2>
           <p>
-            Jane Doe is an innovative and passionate artist who explores the relationship between 
-            nature and technology. Her work features vivid colors, geometric shapes, and abstract forms 
-            that challenge traditional concepts of art and design. Jane's journey as an artist began in 
-            early childhood, and she continues to push boundaries with her latest creations.
-          </p>
-          <p>
-            "Art is not just a creation, it is a conversation," says Jane. "Through my work, I hope to spark 
-            meaningful dialogues about the world we live in."
+            Hello! My name is Sora and I love playing with colour and light in my art. I paint everything from personal work to anime to dramas to games and more!
           </p>
         </div>
         <img 
@@ -55,25 +47,22 @@ function MeetTheArtist() {
         />
       </div>
     
-      //Guest artists
+    <h2>Guest Artists</h2>
     <div className="artist-profiles">
         {/* First Artist Profile */}
         <div className="artist-profile">
           <img 
-            src="https://via.placeholder.com/150" // Replace with a real image URL or import an image
+            src={require("./imgs/osipfp.png")} // Replace with a real image URL or import an image
             alt="Artist 1"
             className="artist-photo"
           />
           <div className="guest-artist-bio-left">
-            <h2>Jane Doe</h2>
+            <h2>osi</h2>
             <p>
-              Jane Doe is an innovative and passionate artist who explores the relationship between 
-              nature and technology. Her work features vivid colors, geometric shapes, and abstract forms 
-              that challenge traditional concepts of art and design.
-            </p>
-            <p>
-              "Art is not just a creation, it is a conversation," says Jane. "Through my work, I hope to spark 
-              meaningful dialogues about the world we live in."
+              i do original work and fanart of games, shows, and animes. <br />
+              email: regularosi.art@gmail.com <br />
+              insta and tiktok: @lovri_ osi <br />
+              phone number: 7788982695
             </p>
           </div>
         </div>
@@ -86,7 +75,7 @@ function MeetTheArtist() {
             className="artist-photo"
           />
           <div className="guest-artist-bio">
-            <h2>John Smith</h2>
+            <h2>Alice</h2>
             <p>
               John Smith creates artwork that reflects the human experience through abstract and expressive 
               forms. His works aim to evoke emotion and challenge viewers to reflect on society and culture.

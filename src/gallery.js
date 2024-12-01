@@ -10,6 +10,13 @@ const images = [
   { src: require('./imgs/omniscientreaderposter.png'), caption: 'Image 3' },
   { src: require('./imgs/csm.png'), caption: 'Image 4' },
   { src: require('./imgs/animation.png'), caption: 'Image 5' },
+  { src: require('./imgs/ekko.png'), caption: 'Image 5' },
+  { src: require('./imgs/link.png'), caption: 'Image 5' },
+  { src: require('./imgs/polaroid.png'), caption: 'Image 5' },
+  { src: require('./imgs/portrait.png'), caption: 'Image 5' },
+  { src: require('./imgs/shoots.png'), caption: 'Image 5' },
+  { src: require('./imgs/Untitled.png'), caption: 'Image 5' },
+  { src: require('./imgs/woah.png'), caption: 'Image 5' },
 ];
 
 const jasStickers = [
@@ -42,12 +49,27 @@ const sopStickers = [
   { src: require('./imgs/magikarp.png'), caption: 'Image 6' },
 ]
 
+const osi = [
+  { src: require('./imgs/Untitled_Artwork_5.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_6.png'), caption: 'Image 6' },
+  { src: require('./imgs/farline.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_7.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_8.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_9.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_10.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_12.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_3.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork_2.png'), caption: 'Image 6' },
+  { src: require('./imgs/Untitled_Artwork.png'), caption: 'Image 6' },
+  { src: require('./imgs/cat2.png'), caption: 'Image 6' },
+]
+
 const PhotoGallery = () => {
   const [open, setOpen] = React.useState(false);
 
   return (
     <>
-      <h1>Klip</h1>
+      <h1>klip</h1>
       <h2>Posters</h2>
       <div className="gallery">
         {images.map((image, index) => (
@@ -79,6 +101,16 @@ const PhotoGallery = () => {
       <h2>Stickers</h2>
       <div className="gallery">
         {sopStickers.map((image, index) => (
+          <div key={index} className="gallery-item" onClick={() => setOpen(true)}>
+            <img src={image.src} alt={image.caption} className="gallery-image" />
+          </div>
+        ))}
+      </div>
+
+      <h1>Guest: osi</h1>
+      <h2>Posters</h2>
+      <div className="gallery">
+        {osi.map((image, index) => (
           <div key={index} className="gallery-item" onClick={() => setOpen(true)}>
             <img src={image.src} alt={image.caption} className="gallery-image" />
           </div>
