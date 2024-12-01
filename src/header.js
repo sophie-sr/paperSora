@@ -10,15 +10,15 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           {/* Logo or Brand */}
-          <Navbar.Brand as={Link} to="/">PaperSora</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/paperSora/">PaperSora</Navbar.Brand>
           
           {/* Navbar links */}
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link> {/* Replace href with Link */}
-              <Nav.Link as={Link} to="/meettheartist">Meet the Artists</Nav.Link> {/* Link to Meet the Artist */}
-              <Nav.Link as={Link} to="/commission">Commissions</Nav.Link> {/* Replace href with Link */}
-              <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link> {/* Replace href with Link */}
+              <Nav.Link as={Link} to="/paperSora/portfolio">Portfolio</Nav.Link> {/* Replace href with Link */}
+              <Nav.Link as={Link} to="/paperSora/meettheartist">Meet the Artists</Nav.Link> {/* Link to Meet the Artist */}
+              <Nav.Link as={Link} to="/paperSora/commission">Commissions</Nav.Link> {/* Replace href with Link */}
+              <Nav.Link as={Link} to="/paperSora/contact">Contact Us</Nav.Link> {/* Replace href with Link */}
             </Nav>
           </Navbar.Collapse>
         </Container>

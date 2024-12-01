@@ -17,17 +17,17 @@ function App() {
         {/* Define routes for different pages */}
         <Routes>
           {/* Default route (Home) */}
-          <Route path="/" element={<PhotoGallery />} />
+          <Route path="/paperSora" element={<PhotoGallery />} />
 
           {/* Commission Request route */}
-          <Route path="/commission" element={<CommissionRequest />} />
+          <Route path="/paperSora/commission" element={<CommissionRequest />} />
 
           {/* You can add more routes for other pages */}
-          <Route path="/portfolio" element={<PhotoGallery />} />
+          <Route path="/paperSora/portfolio" element={<PhotoGallery />} />
     
-          <Route path="/meettheartist" element={<MeetTheArtist />} /> {/* Route for Meet the Artist */}
+          <Route path="/paperSora/meettheartist" element={<MeetTheArtist />} /> {/* Route for Meet the Artist */}
     
-          <Route path="/contact" element=
+          <Route path="/paperSora/contact" element=
           {<ContactUs />} />
         </Routes>
       </div>
