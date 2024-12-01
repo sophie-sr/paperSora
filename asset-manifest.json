@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/paperSora/static/css/main.87ecc563.css",
+    "main.css": "/paperSora/static/css/main.37586aa1.css",
     "main.js": "/paperSora/static/js/main.22e6e705.js",
     "static/js/453.5565870f.chunk.js": "/paperSora/static/js/453.5565870f.chunk.js",
     "static/media/scara.png": "/paperSora/static/media/scara.642cc96ccf34426df628.png",
@@ -54,12 +54,12 @@
     "static/media/jaspfp.png": "/paperSora/static/media/jaspfp.381ab7732518e6049db8.png",
     "static/media/logo.svg": "/paperSora/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/paperSora/index.html",
-    "main.87ecc563.css.map": "/paperSora/static/css/main.87ecc563.css.map",
+    "main.37586aa1.css.map": "/paperSora/static/css/main.37586aa1.css.map",
     "main.22e6e705.js.map": "/paperSora/static/js/main.22e6e705.js.map",
     "453.5565870f.chunk.js.map": "/paperSora/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87ecc563.css",
+    "static/css/main.37586aa1.css",
     "static/js/main.22e6e705.js"
   ]
 }
