@@ -28,7 +28,7 @@ function MeetTheArtist() {
             jaswei1514@gmail.com <br />
             2508848456<br />
             tiktok: paper.klip<br />
-            Instagram: klip_sk<br />
+            instagram: klip_sk<br />
           </p>
         </div>
       </div>
@@ -38,6 +38,11 @@ function MeetTheArtist() {
           <h2>Sora</h2>
           <p>
             Hello! My name is Sora and I love playing with colour and light in my art. I paint everything from personal work to anime to dramas to games and more!
+          </p>
+          <p>
+            Email: sophier8817@gmail.com<br />
+            Instagram: @sr_sora_<br />
+            Tumblr: @srsora
           </p>
         </div>
         <img 
@@ -59,7 +64,9 @@ function MeetTheArtist() {
           <div className="guest-artist-bio-left">
             <h2>osi</h2>
             <p>
-              i do original work and fanart of games, shows, and animes. <br />
+              i do original work and fanart of games, shows, and animes.
+            </p>
+            <p>
               email: regularosi.art@gmail.com <br />
               insta and tiktok: @lovri_ osi <br />
               phone number: 7788982695
@@ -70,19 +77,17 @@ function MeetTheArtist() {
         {/* Second Artist Profile */}
         <div className="artist-profile">
           <img 
-            src="https://via.placeholder.com/150" // Replace with a real image URL or import an image
+            src={require("./imgs/alicepfp.png")} // Replace with a real image URL or import an image
             alt="Artist 2"
             className="artist-photo"
           />
           <div className="guest-artist-bio">
-            <h2>Alice</h2>
+            <h2>a</h2>
             <p>
-              John Smith creates artwork that reflects the human experience through abstract and expressive 
-              forms. His works aim to evoke emotion and challenge viewers to reflect on society and culture.
+              I create handmade knit hats and accessories inspired by fan-favorite characters, blending cozy designs with unique fandom touches. Each piece is carefully crafted to reflect the charm of these characters in a fun and creative style!
             </p>
             <p>
-              "Art is a window into our souls, a reflection of our innermost thoughts," says John. "I aim to capture 
-              the essence of human emotion in my work."
+              phone: 604-561-3589
             </p>
           </div>
         </div>

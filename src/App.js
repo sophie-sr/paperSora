@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Using Routes instead of Switch
 import './App.css';
 import Header from './header'; // Import the Header component
@@ -7,11 +7,22 @@ import PhotoGallery from './gallery'; // Import the PhotoGallery component
 import MeetTheArtist from './meetTheArtist.js'; // Import the MeetTheArtist component
 import CommissionRequest from './commision';  // Import CommissionRequest component
 import ContactUs from './contact.js'
+import LoadingOverlay from './loader.js';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading delay
+    setTimeout(() => {
+      setLoading(false); // Hide loading overlay after 3 seconds
+    }, 3000);
+  }, []);
+  
   return (
     <Router>
       <div className="App">
+        {loading && <LoadingOverlay />} {/* Show loading overlay */}    
         <Header />
         
         {/* Define routes for different pages */}

@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+/* General styles for the page container */
+.app {
+  position: relative;
+}
+
+/* Hide all pages initially */
+.page-content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth fade transition */
+}
+
+/* When the page is visible (after transition) */
+.page-content-enter-active {
+  opacity: 1;
+}
+
+.page-content-exit-active {
+  opacity: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

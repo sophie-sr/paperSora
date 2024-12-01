@@ -44,8 +44,9 @@ textarea.error:hover {
 }
 
 button.submit-button {
+  font-family: 'Quicksand', sans-serif;
   padding: 10px 20px;
-  color: #2B3555;
+  color: #5D737E;
   border: none;
   background-color: #FEFAF6;
   border-radius: 5px;
