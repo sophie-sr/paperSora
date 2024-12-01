@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/paperSora/static/css/main.37586aa1.css",
-    "main.js": "/paperSora/static/js/main.22e6e705.js",
+    "main.css": "/paperSora/static/css/main.00d20878.css",
+    "main.js": "/paperSora/static/js/main.e1b521ce.js",
     "static/js/453.5565870f.chunk.js": "/paperSora/static/js/453.5565870f.chunk.js",
     "static/media/scara.png": "/paperSora/static/media/scara.642cc96ccf34426df628.png",
     "static/media/woah.png": "/paperSora/static/media/woah.5e7b160c060595272605.png",
@@ -12,6 +12,7 @@
     "static/media/vampire.png": "/paperSora/static/media/vampire.78cf7b76a82593d40375.png",
     "static/media/omniscientreaderposter.png": "/paperSora/static/media/omniscientreaderposter.600fc6ff9d4988e36b5e.png",
     "static/media/v.png": "/paperSora/static/media/v.113520cd9ac600301935.png",
+    "static/media/link2.png": "/paperSora/static/media/link2.2011114930b4abbc6e46.png",
     "static/media/ekko.png": "/paperSora/static/media/ekko.f1393dcbf3de2ee3a7ee.png",
     "static/media/link.png": "/paperSora/static/media/link.8bb6f9f676087e4f3f89.png",
     "static/media/02022023.jpg": "/paperSora/static/media/02022023.111c2fa7bdfd001b27d1.jpg",
@@ -21,6 +22,7 @@
     "static/media/shoots.png": "/paperSora/static/media/shoots.430057b9cf567bcae11b.png",
     "static/media/Untitled_Artwork_8.png": "/paperSora/static/media/Untitled_Artwork_8.d6b65338d94f8ddc65c9.png",
     "static/media/Untitled_Artwork_5.png": "/paperSora/static/media/Untitled_Artwork_5.058d6ec84713d110f95f.png",
+    "static/media/scaramouche.png": "/paperSora/static/media/scaramouche.08f6fcdcb28a4219ce1a.png",
     "static/media/Untitled_Artwork_3.png": "/paperSora/static/media/Untitled_Artwork_3.f1f13262f3ae53503af5.png",
     "static/media/nilou dance.png": "/paperSora/static/media/nilou dance.dd4d34d912e035e010db.png",
     "static/media/plein april 2023 day 2.jpg": "/paperSora/static/media/plein april 2023 day 2.b79c468e752d8e8a2ce2.jpg",
@@ -39,6 +41,7 @@
     "static/media/noface.png": "/paperSora/static/media/noface.ae480b0623125c849f5c.png",
     "static/media/cat.png": "/paperSora/static/media/cat.874f7e24bc71db401c2d.png",
     "static/media/Illustration2.png": "/paperSora/static/media/Illustration2.13b4dd87a452486a1ac3.png",
+    "static/media/gojo.png": "/paperSora/static/media/gojo.2b0bf048dc3fe366a768.png",
     "static/media/subtext.jpg": "/paperSora/static/media/subtext.5f7ff64df2edd6f8fbd7.jpg",
     "static/media/tired.png": "/paperSora/static/media/tired.5d0b15a0916a52fef189.png",
     "static/media/hero.png": "/paperSora/static/media/hero.47275b938b586398253e.png",
@@ -48,18 +51,22 @@
     "static/media/cat2.png": "/paperSora/static/media/cat2.e131c315c215d62a1e52.png",
     "static/media/oikawaaa.png": "/paperSora/static/media/oikawaaa.16a5c9cdd994edd06d9f.png",
     "static/media/farline.png": "/paperSora/static/media/farline.ef4239e40cc3edfbbfa8.png",
+    "static/media/inumaki.png": "/paperSora/static/media/inumaki.bffd07826657982ba12d.png",
     "static/media/magikarp.png": "/paperSora/static/media/magikarp.c3bf6ce1f95e13722608.png",
     "static/media/osipfp.png": "/paperSora/static/media/osipfp.fdbd713e79c1ff93c359.png",
     "static/media/coffee.png": "/paperSora/static/media/coffee.95e34540370ccfd256e7.png",
+    "static/media/alicepfp.png": "/paperSora/static/media/alicepfp.f5b2d47abda946327200.png",
+    "static/media/aaron.jpg": "/paperSora/static/media/aaron.3c537e0a824cddae22c0.jpg",
     "static/media/jaspfp.png": "/paperSora/static/media/jaspfp.381ab7732518e6049db8.png",
+    "static/media/em.jpg": "/paperSora/static/media/em.aff4be3c9bd4584d0d71.jpg",
     "static/media/logo.svg": "/paperSora/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/paperSora/index.html",
-    "main.37586aa1.css.map": "/paperSora/static/css/main.37586aa1.css.map",
-    "main.22e6e705.js.map": "/paperSora/static/js/main.22e6e705.js.map",
+    "main.00d20878.css.map": "/paperSora/static/css/main.00d20878.css.map",
+    "main.e1b521ce.js.map": "/paperSora/static/js/main.e1b521ce.js.map",
     "453.5565870f.chunk.js.map": "/paperSora/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37586aa1.css",
-    "static/js/main.22e6e705.js"
+    "static/css/main.00d20878.css",
+    "static/js/main.e1b521ce.js"
   ]
 }
