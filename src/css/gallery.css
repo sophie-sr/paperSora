@@ -1,14 +1,14 @@
-/* PhotoGallery.css */
+/* Photo Gallery Page CSS */
 
-/* Styling the gallery container */
+/* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create a responsive grid */
-  gap: 15px; /* Space between images */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
   padding: 20px;
 }
 
-/* Styling individual gallery items */
+/* Gallery item */
 .gallery-item {
   background-color: #FEFAF6;
   overflow: hidden;
@@ -21,14 +21,12 @@
   cursor: pointer;
 }
 
-/* Styling the images inside the gallery */
 .gallery-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Styling the captions */
 .gallery-caption {
   padding: 10px;
   text-align: center;

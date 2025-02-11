@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS SDK
-import './commision.css';
+/**
+ * Commisions Page
+ */
 
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import '../css/commision.css';
+
+// Commision Page Component
 function CommissionRequest() {
+  // Form data
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -13,6 +19,7 @@ function CommissionRequest() {
   const [errors, setErrors] = useState({});
   const [sending, setSending] = useState(false); // To manage the sending state
 
+  // EmailJS handlers
   const handleChange = (e) => {
     const { name, value, type, files } = e.target;
     setFormData((prevData) => ({
@@ -25,13 +32,14 @@ function CommissionRequest() {
     e.preventDefault();
     const newErrors = {};
 
-    // Validate fields
+    // If fields cannot be validated, display error
     if (!formData.name) newErrors.name = 'Name is required';
     if (!formData.email) newErrors.email = 'Email is required';
     if (!formData.description) newErrors.description = 'Description is required';
 
     setErrors(newErrors);
 
+    // If no errors...
     if (Object.keys(newErrors).length === 0) {
       setSending(true); // Show loading state
 
@@ -50,15 +58,16 @@ function CommissionRequest() {
             console.log('Email sent successfully:', response);
             setIsSubmitted(true); // Show thank you message
             setSending(false); // Hide loading state
-            // Optionally reset the form here after successful submission:
+
+            // Return to form after 3 seconds or display error
             setTimeout(() => {
-              setIsSubmitted(false); // Return to form after 3 seconds (or any duration)
+              setIsSubmitted(false);
               setFormData({
                 name: '',
                 email: '',
                 description: '',
               });
-            }, 3000); // 3 seconds before returning to the form
+            }, 3000);
           },
           (error) => {
             console.log('Email sending failed:', error);
@@ -68,6 +77,7 @@ function CommissionRequest() {
     }
   };
 
+  // Display form or Form Submitted page
   return (
     <div className="commission-request">
       {isSubmitted ? (

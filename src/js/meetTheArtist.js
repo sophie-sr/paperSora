@@ -1,8 +1,12 @@
-// MeetTheArtist.js
-import React from 'react';
-import './meetTheArtist.css'; // Optional, you can style this separately
+/**
+ * Meet the Artist Page
+ */
 
-const subTextImageSrc = require("./imgs/subtext.jpg");
+import React from 'react';
+import '../css/meetTheArtist.css';
+
+// Subtext image for Where to Find Us
+const subTextImageSrc = require("../imgs/subtext.jpg");
 
 function MeetTheArtist() {
   return (
@@ -13,9 +17,10 @@ function MeetTheArtist() {
       We are a Victoria-based artist duo who love to make art. From the combination of our names of "paper" klip_sk and sr_"sora", the skies the limit for us with a pen and paper! <br />
       From anime to games to aesthetics and more, the two of us combined cover practically all the interests of the common nerd.</p>
 
+      {/* Jas bio */}
       <div className="artist-info">
         <img 
-          src={require("./imgs/jaspfp.png")} // Replace with a real image URL or import an image
+          src={require("../imgs/jaspfp.png")} // Replace with a real image URL or import an image
           alt="Artist"
           className="artist-photo"
         />
@@ -33,6 +38,7 @@ function MeetTheArtist() {
         </div>
       </div>
     
+      {/* Sophie bio */}
       <div className="artist-info">
         <div className="artist-bio-right">
           <h2>Sora</h2>
@@ -46,18 +52,19 @@ function MeetTheArtist() {
           </p>
         </div>
         <img 
-          src={require("./imgs/Illustration2.png")} // Replace with a real image URL or import an image
+          src={require("../imgs/Illustration2.png")} // Replace with a real image URL or import an image
           alt="Artist"
           className="artist-photo"
         />
       </div>
     
+    {/* Guest artist bios */}
     <h2>Guest Artists</h2>
     <div className="artist-profiles">
-        {/* First Artist Profile */}
+        {/* Osi bio */}
         <div className="artist-profile">
           <img 
-            src={require("./imgs/osipfp.png")} // Replace with a real image URL or import an image
+            src={require("../imgs/osipfp.png")} // Replace with a real image URL or import an image
             alt="Artist 1"
             className="artist-photo"
           />
@@ -74,10 +81,10 @@ function MeetTheArtist() {
           </div>
         </div>
 
-        {/* Second Artist Profile */}
+        {/* Alice bio */}
         <div className="artist-profile">
           <img 
-            src={require("./imgs/alicepfp.png")} // Replace with a real image URL or import an image
+            src={require("../imgs/alicepfp.png")} // Replace with a real image URL or import an image
             alt="Artist 2"
             className="artist-photo"
           />
@@ -93,6 +100,7 @@ function MeetTheArtist() {
         </div>
       </div>
   
+      {/* In the community/where to find us blurb */}
       <h1>In the Community...</h1>
     
       <p>You can find us at SubText in the Student Union Building at the University of Victoria!</p>

@@ -1,4 +1,4 @@
-/* MeetTheArtist.css */
+/* Meet The Artist Page CSS*/
 .meet-the-artist {
   text-align: center;
   padding: 20px;
@@ -7,6 +7,7 @@
   text-align: center;
 }
 
+/* Artist section */
 .artist-info {
   display: flex;
   align-items: center;
@@ -37,20 +38,20 @@ ul {
   text-align: left;
 }
 
-/*Guest*/
+/* Guest artist section*/
 .artist-profiles {
   display: flex;
-  justify-content: space-evenly; /* Distribute profiles evenly */
-  gap: 20px; /* Space between profiles */
-  flex-wrap: wrap; /* Allows for wrapping on smaller screens */
-  width: 80%; /* Set a max-width for the profile section */
-  max-width: 1000px; /* Optional: you can set a max width for large screens */
-  margin: 0 auto; /* Center the profiles section */
+  justify-content: space-evenly; 
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .artist-profile {
-  width: 45%; /* Control the width of each profile */
-  text-align: center; /* Center content inside each profile */
+  width: 45%;
+  text-align: center;
   margin: 20px 0;
 }
 

@@ -1,8 +1,12 @@
-// LoadingOverlay.js
+/**
+ * Loader for smooth initial load of page
+ */
+
 import React from 'react';
-import './loader.css';  // Import CSS for styling
+import '../css/loader.css';
 
 const LoadingOverlay = () => {
+  // Bouncing ball overlay
   return (
     <div className="loading-overlay">
       <div className="bouncing-ball"></div>

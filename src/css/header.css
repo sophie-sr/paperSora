@@ -1,0 +1,85 @@
+/* Header CSS */
+
+/*
+General Styling Information:
+Colours:
+#FEFAF6 //light brown
+#9E6240 //Darker brown
+
+#C1DFF0 //Light blue
+#5D737E //Med grey
+#2B3555 //Dark blue
+
+Fonts:
+Quicksand - Sans-serif rounded font
+ComingSoon - Handwriting
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Quicksand:wght@300..700&display=swap');
+
+/* Whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+body {
+  background-color: #FEFAF6;
+  font-family: 'Quicksand', sans-serif;
+  color: #5D737E;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+}
+
+/* Navbar logo */
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "Quicksand", cursive;
+  color: #5D737E;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar-brand:hover {
+  color: #2B3555;
+}
+
+/* Navbar links */
+.nav-link {
+  font-size: 1.1rem;
+  color: #5D737E;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover {
+  color: #2B3555;
+}
+
+/* Hamburger */
+.navbar-toggler-icon {
+  background-color: #f39c12;
+}
+
+/* Smaller screens... responsiveness!!!! */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 0.5rem 0;
+  }
+}

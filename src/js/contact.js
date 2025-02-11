@@ -1,12 +1,18 @@
-import React from 'react';
-import './contact.css'; // Import CSS for styling
+/**
+ * Contact Us Page
+ */
 
+import React from 'react';
+import '../css/contact.css';
+
+// Contact Us Component
 function ContactUs() {
   return (
     <div className="contact-us">
       <h1>Contact Us</h1>
       <p>We'd love to hear from you! If you have any questions or inquiries, feel free to reach out to us through any of the below listed platforms.</p>
 
+      {/* Contacts */}
       <div className="contact-info">
         <h2>Email Us</h2>
         <p>

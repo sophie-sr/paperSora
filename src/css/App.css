@@ -1,0 +1,68 @@
+/* General CSS for whole site. More general CSS in header.css */
+.App {
+  text-align: center;
+}
+
+.app {
+  position: relative;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Hide all pages initially, load in transition */
+.page-content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth fade transition */
+}
+
+.page-content-enter-active {
+  opacity: 1;
+}
+
+.page-content-exit-active {
+  opacity: 0;
+}
+
+/* Logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Smooth transition to close when loading completed */
+.default-page {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.default-page.show {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
